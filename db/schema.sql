@@ -1,0 +1,7 @@
+CREATE TABLE tweets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    source TEXT,
+    metadata TEXT
+);
